@@ -1,5 +1,5 @@
 {
-  "uid" : "cf4c4cf8d33c7370",
+  "uid" : "e5ea9c41f84010e9",
   "name" : "test_healhthchek",
   "fullName" : "tests.test_healthcheck#test_healhthchek",
   "historyId" : "f50e23587ec6ca247d298829776b5396",
@@ -25,23 +25,23 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false,
-      "stepsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "8a8d0ef5e43f0dbf",
+      "uid" : "f0a6f053e7f0982c",
       "name" : "log",
-      "source" : "8a8d0ef5e43f0dbf.txt",
+      "source" : "f0a6f053e7f0982c.txt",
       "type" : "text/plain",
       "size" : 46
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
     "hasContent" : true,
-    "stepsCount" : 1
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -80,6 +80,6 @@
     "categories" : [ ],
     "tags" : [ "health" ]
   },
-  "source" : "cf4c4cf8d33c7370.json",
+  "source" : "e5ea9c41f84010e9.json",
   "parameterValues" : [ ]
 }
