@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "Test Health check of the framework",
+      "children" : [ {
+        "name" : "test_healhthchek",
+        "uid" : "4245ad2d4703d8e0",
+        "parentUid" : "02cf8e621644cc312b7b102098458343",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730838060275,
+          "stop" : 1730838060276,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02cf8e621644cc312b7b102098458343"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

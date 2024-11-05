@@ -1,0 +1,85 @@
+{
+  "uid" : "cf4c4cf8d33c7370",
+  "name" : "test_healhthchek",
+  "fullName" : "tests.test_healthcheck#test_healhthchek",
+  "historyId" : "f50e23587ec6ca247d298829776b5396",
+  "time" : {
+    "start" : 1730834670769,
+    "stop" : 1730834670770,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step 1",
+      "time" : {
+        "start" : 1730834670769,
+        "stop" : 1730834670770,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "8a8d0ef5e43f0dbf",
+      "name" : "log",
+      "source" : "8a8d0ef5e43f0dbf.txt",
+      "type" : "text/plain",
+      "size" : 46
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Health check of the framework"
+  }, {
+    "name" : "tag",
+    "value" : "health"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "host",
+    "value" : "ef0d9173e4fa"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_healthcheck"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "health" ]
+  },
+  "source" : "cf4c4cf8d33c7370.json",
+  "parameterValues" : [ ]
+}
