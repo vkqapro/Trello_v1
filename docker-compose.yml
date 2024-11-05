@@ -6,8 +6,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-#    volumes:
-#      - /Users/vitalykamynin/projects/PythonTreloAPI_n_UI
+    volumes:
+      - /Users/vitalykamynin/projects/PythonTreloAPI_n_UI
     command: /bin/sh -c "ls -ls && pytest -m healthcheck -alluredir=allure-results"
     working_dir: /Users/vitalykamynin/projects/PythonTreloAPI_n_UI
 
