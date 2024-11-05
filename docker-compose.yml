@@ -1,15 +1,14 @@
-version: "3.8"
-
 services:
   e2e:
-    image: python:3.12.0-alpine3.18
+    image: python:latest
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - /Users/vitalykamynin/projects/PythonTreloAPI_n_UI
-    command: /bin/sh -c "ls -ls && pytest -m healthcheck -alluredir=allure-results"
-    working_dir: /Users/vitalykamynin/projects/PythonTreloAPI_n_UI
+      - ./:/automation
+    command: /bin/bash -c "pip3 install -r requirements.txt && ls -ls && pytest -m health --alluredir=allure-results"
+#    command: /bin/sh -c "ls -ls"
+    working_dir: /automation
 
 #    environment:
 #      - DB_USER=${DB_USER}
