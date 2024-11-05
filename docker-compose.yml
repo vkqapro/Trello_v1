@@ -7,9 +7,9 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./:/usr/workspace
+      - ./Users/vitalykamynin/projects/PythonTreloAPI_n_UI
     command: /bin/sh -c "ls -ls && pytest -m healthcheck -alluredir=allure-results"
-    working_dir: /usr/workspace
+    working_dir: /Users/vitalykamynin/projects/PythonTreloAPI_n_UI
 
 #    environment:
 #      - DB_USER=${DB_USER}
