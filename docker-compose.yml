@@ -5,9 +5,9 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./:/automation
-    command: /bin/bash -c "pip3 install -r requirements.txt && ls -ls && pytest -m health --alluredir=allure-results"
-#    command: /bin/sh -c "ls -ls"
+      - ./:/automation   
+    # command: /bin/sh -c "pip3 install -r requirements.txt && ls -ls && pytest -m health --alluredir=allure-results"
+    command: /bin/sh -c "ls -ls"
     working_dir: /automation
 
 #    environment:
