@@ -6,8 +6,9 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/bin/automation
-    command: /bin/sh -c "ls -ls && pytest --version && pytest -m health --alluredir=allure-results"
-#    command: /bin/sh -c "ls -ls"
+    command: /bin/sh -c "ls -ls && pytest -m health"
+#    command: /bin/sh -c "ls -ls && pytest --version && allure --version && pytest -m health --alluredir=allure-results"
+
     working_dir: /usr/bin/automation
 
 #    environment:
