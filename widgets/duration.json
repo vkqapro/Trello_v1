@@ -1,10 +1,10 @@
 [ {
-  "uid" : "5e1f7cd361de1d4f",
+  "uid" : "5358563ba57a243d",
   "name" : "test_healhthchek",
   "time" : {
-    "start" : 1730838173660,
-    "stop" : 1730838173660,
-    "duration" : 0
+    "start" : 1730838325602,
+    "stop" : 1730838325603,
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"

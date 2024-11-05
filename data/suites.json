@@ -6,13 +6,13 @@
       "name" : "Test Health check of the framework",
       "children" : [ {
         "name" : "test_healhthchek",
-        "uid" : "5e1f7cd361de1d4f",
+        "uid" : "5358563ba57a243d",
         "parentUid" : "02cf8e621644cc312b7b102098458343",
         "status" : "passed",
         "time" : {
-          "start" : 1730838173660,
-          "stop" : 1730838173660,
-          "duration" : 0
+          "start" : 1730838325602,
+          "stop" : 1730838325603,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,

@@ -1,12 +1,12 @@
 {
-  "uid" : "5e1f7cd361de1d4f",
+  "uid" : "8f67fd17cec96572",
   "name" : "test_healhthchek",
   "fullName" : "tests.test_healthcheck#test_healhthchek",
   "historyId" : "f50e23587ec6ca247d298829776b5396",
   "time" : {
-    "start" : 1730838173660,
-    "stop" : 1730838173660,
-    "duration" : 0
+    "start" : 1730832647734,
+    "stop" : 1730832647735,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,31 +17,31 @@
     "steps" : [ {
       "name" : "Step 1",
       "time" : {
-        "start" : 1730838173660,
-        "stop" : 1730838173660,
+        "start" : 1730832647735,
+        "stop" : 1730832647735,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "502b9fa4c001b732",
+      "uid" : "8046b7ad84b06a8c",
       "name" : "log",
-      "source" : "502b9fa4c001b732.txt",
+      "source" : "8046b7ad84b06a8c.txt",
       "type" : "text/plain",
       "size" : 46
     } ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "hasContent" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -55,10 +55,10 @@
     "value" : "tests"
   }, {
     "name" : "host",
-    "value" : "3ea91550a16b"
+    "value" : "6bfd474eb143"
   }, {
     "name" : "thread",
-    "value" : "1-MainThread"
+    "value" : "11-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -74,38 +74,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "e5ea9c41f84010e9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1730834670769,
-        "stop" : 1730834670770,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "24fd2f289da8dbcd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1730832647734,
-        "stop" : 1730832647735,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "9d8909bb5c2e2059",
-      "status" : "passed",
-      "time" : {
-        "start" : 1730784030658,
-        "stop" : 1730784030659,
-        "duration" : 1
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "health" ]
   },
-  "source" : "5e1f7cd361de1d4f.json",
+  "source" : "8f67fd17cec96572.json",
   "parameterValues" : [ ]
 }
