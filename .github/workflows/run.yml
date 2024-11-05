@@ -1,4 +1,4 @@
-- name: Generate Allure Report
+- name: run
   run: |
     sudo docker-compose run test /bin/sh -c "allure generate allure-results --clean -o allure-report"
 
