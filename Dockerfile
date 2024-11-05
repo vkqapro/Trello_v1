@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.12.0a4-alpine3.17
 
 #update apk repo
 RUN echo "Index of /alpine/v3.10/main/ " >> /etc/apk/repositories && echo "Index of /alpine/v3.10/community/ " >> /etc/apk/repositories
@@ -22,4 +22,3 @@ COPY ./requirements.txt /automation
 WORKDIR /automation
 
 #Install Python dependencies
-RUN pip3 install -r requirements.txt

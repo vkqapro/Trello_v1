@@ -1,0 +1,8 @@
+README.md
+setup.py
+CI_test_API_UI_GitActions_with_Allure_reports.egg-info/PKG-INFO
+CI_test_API_UI_GitActions_with_Allure_reports.egg-info/SOURCES.txt
+CI_test_API_UI_GitActions_with_Allure_reports.egg-info/dependency_links.txt
+CI_test_API_UI_GitActions_with_Allure_reports.egg-info/requires.txt
+CI_test_API_UI_GitActions_with_Allure_reports.egg-info/top_level.txt
+tests/test_healthcheck.py

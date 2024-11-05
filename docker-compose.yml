@@ -1,12 +1,12 @@
 services:
   e2e:
-    image: python:latest
+    image: python:3.12.0a4-alpine3.17
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       - ./:/automation   
-    command: /bin/sh -c "ls -ls && pip3 install -r requirements.txt && pytest -m health --alluredir=allure-results"
+    command: /bin/sh -c "ls -ls && python3 -m pip install . && pytest --version && pytest -m health --alluredir=allure-results"
 #    command: /bin/sh -c "ls -ls"
     working_dir: /automation
 
